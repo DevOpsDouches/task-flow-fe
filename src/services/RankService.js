@@ -1,6 +1,6 @@
 // frontend/src/services/RankService.js
 
-const TODO_SERVICE_URL = process.env.REACT_APP_TODO_SERVICE_URL || 'http://localhost:3002';
+const TODO_SERVICE_URL = process.env.REACT_APP_TODO_SERVICE_URL || '';
 
 export const RankService = {
   /**
